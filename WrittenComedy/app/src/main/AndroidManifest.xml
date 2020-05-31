@@ -10,23 +10,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".login.LoginActivity"
+        <activity android:name=".splash.SplashActivity"
             android:screenOrientation="sensorPortrait"
             android:theme="@style/NoActionBar"
             tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".login.LoginActivity"
             android:screenOrientation="sensorPortrait"
             android:theme="@style/NoActionBar"
-            tools:ignore="LockedOrientationActivity">
-        </activity>
-
+            tools:ignore="LockedOrientationActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
     </application>
 
 </manifest>
