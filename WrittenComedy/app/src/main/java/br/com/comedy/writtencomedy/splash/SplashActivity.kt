@@ -15,7 +15,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        animateConfirmation()
+        animateSplash()
     }
 
     private fun openLogin(){
@@ -24,7 +24,7 @@ class SplashActivity : AppCompatActivity() {
         finish()
     }
 
-    private fun animateConfirmation(){
+    private fun animateSplash(){
 
         AnimationUtils.loadAnimation(this, R.anim.bounce_animation).run {
             findViewById<ImageView>(R.id.image_to_anim).startAnimation(this)
