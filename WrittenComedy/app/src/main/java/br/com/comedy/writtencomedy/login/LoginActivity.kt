@@ -1,10 +1,12 @@
-package br.com.comedy.writtencomedy
+package br.com.comedy.writtencomedy.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
 import br.com.church.gnf.device_check.InternetCheck
+import br.com.comedy.writtencomedy.MainActivity
+import br.com.comedy.writtencomedy.R
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
@@ -34,7 +36,7 @@ class LoginActivity : AppCompatActivity() {
     private fun setLoginButton() {
         btn_login.setOnClickListener {
             if (canLogIn()) {
-                loginUser(et_username.text.toString() + "@gmail.com", et_password.text.toString())
+                loginUser(et_username.text.toString() + "@writtencomedy.com", et_password.text.toString())
             }
         }
     }

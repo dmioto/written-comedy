@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Written Comedy</string>
+
+    <!-- Login xml strings -->
+    <string name="username_hint">Usuário</string>
+    <string name="password_hint">Senha</string>
+    <string name="btn_login">Entrar</string>
+
+    <!-- Login activity strings -->
+    <string name="no_connection_error">Sem conexão com a Internet</string>
+    <string name="username_or_password_invalid_error">Usuário e/ou senha inválidos</string>
+    <string name="fill_this_field_error">Preencha esse campo</string>
 </resources>
