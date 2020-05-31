@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:padding="20dp"
     android:gravity="center">
 
     <EditText
@@ -11,6 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:drawableStart="@drawable/ic_person_white_24dp"
+        android:drawablePadding="8dp"
         android:singleLine="true"
         android:backgroundTint="@android:color/white"
         android:hint="@string/username_hint"
@@ -22,6 +25,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:drawableStart="@drawable/ic_lock_outline_white_24dp"
+        android:drawablePadding="8dp"
         android:inputType="textPassword"
         android:singleLine="true"
         android:backgroundTint="@android:color/white"
@@ -34,8 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:background="@android:color/transparent"
-        android:textColor="@android:color/white"
+        android:background="@android:color/white"
+        android:textColor="@color/endOrange"
         android:text="@string/btn_login" />
 
 </LinearLayout>

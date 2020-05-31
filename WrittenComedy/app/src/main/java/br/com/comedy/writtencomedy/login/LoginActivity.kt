@@ -1,9 +1,10 @@
 package br.com.comedy.writtencomedy.login
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import br.com.church.gnf.device_check.InternetCheck
 import br.com.comedy.writtencomedy.MainActivity
 import br.com.comedy.writtencomedy.R
@@ -11,6 +12,7 @@ import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login_content.*
+
 
 class LoginActivity : AppCompatActivity() {
 
