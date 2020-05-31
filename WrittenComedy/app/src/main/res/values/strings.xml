@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Written Comedy</string>
+    <string name="app_name">Comédia Escrita</string>
 
     <!-- Login xml strings -->
     <string name="username_hint">Usuário</string>
